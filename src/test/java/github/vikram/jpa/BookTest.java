@@ -1,4 +1,6 @@
-package vikram.javaee.jpa;
+package github.vikram.jpa;
+
+import github.vikram.jpa.Book;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;

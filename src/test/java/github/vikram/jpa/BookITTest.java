@@ -1,8 +1,9 @@
-package vikram.javaee.jpa;
+package github.vikram.jpa;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.fail;
+import github.vikram.jpa.Book;
 
 import java.util.Set;
 
