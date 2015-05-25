@@ -1,6 +1,6 @@
-package github.vikram.jpa;
+package github.vikram.javaee.jpa;
 
-import github.vikram.jpa.Book;
+import github.vikram.javaee.jpa.Book;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
@@ -16,7 +16,7 @@ public class BookTest {
 		System.out.println("Created book: " + b);
 		
 		 // Obtains an entity manager and a transaction
-	    EntityManagerFactory emf = Persistence.createEntityManagerFactory("persistence-unit");
+	    EntityManagerFactory emf = Persistence.createEntityManagerFactory("persistence-unit-test");
 	    EntityManager em = emf.createEntityManager();
 	    
 	    System.out.println("Created entityManager.");

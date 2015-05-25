@@ -1,4 +1,4 @@
-package github.vikram.jpa;
+package github.vikram.javaee.jpa;
 
 import java.util.Set;
 
